@@ -1,6 +1,6 @@
 package taxes;
 
-public class UsnIncomeMinusExpense extends TaxSystem {
+public class UsnIncomeMinusExpense implements TaxSystem {
     @Override
     public int calcTaxFor(int debit, int credit) {
         int tax = (debit - credit) * 15 / 100;

@@ -1,7 +1,5 @@
 package taxes;
 
-public class TaxSystem {
-    public int calcTaxFor(int debit, int credit) {
-        return 0;
-    }
+public interface TaxSystem {
+    int calcTaxFor(int debit, int credit);
 }
